@@ -1,7 +1,7 @@
 {
   "name": "nextdemo",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,9 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@mui/icons-material": "^5.2.1",
+    "@mui/lab": "^5.0.0-alpha.59",
+    "@mui/material": "^5.2.3",
+    "@mui/styles": "^5.2.3",
+    "@mui/system": "^5.2.3",
+    "@mui/x-date-pickers": "^5.0.0-alpha.6",
+    "antd": "^4.21.7",
+    "fetch": "^1.1.0",
     "next": "12.1.6",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-draggable": "^4.4.4",
+    "react-resizable": "^3.0.4"
   },
   "devDependencies": {
     "@types/node": "18.0.0",
